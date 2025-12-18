@@ -1,0 +1,11 @@
+!available commands
+/test
+/help
+
+!if you want to send a message or a file
+text
+in: text абаюдна
+out: абаюдна
+file
+in: file C:\*\*\*\file.txt
+out: file.txt(it sends it)
