@@ -2,8 +2,8 @@ import telebot
 import datetime
 import pytz
 
-key = '8269052843:AAFXTSzfa1VYupfNzQDOltE0OF6j9LaKUYU'
-id = '-5001720968'
+key = input('input bot key please: ')
+id = input('input chat id please: ')
 boty = telebot.TeleBot(key)
 
 @boty.message_handler(commands = ['test'])
